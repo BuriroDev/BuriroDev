@@ -56,8 +56,16 @@ function fetchBlogPosts() {
     $items = [];
     $count = 0;
     foreach ($feed->channel->item as $item) {
+        $title = trim((string) $item->title);
+        $title = preg_replace('/\s+/', ' ', $title); // Clean up newlines if Dev.to made the title too long
+        
+        // Filter out the introductory "noise" post
+        if (stripos($title, 'Hey everyone') !== false || stripos($title, 'I’m Abdul Bari') !== false) {
+            continue;
+        }
+
         if ($count++ >= 5) break;
-        $title = (string) $item->title;
+
         $link = (string) $item->link;
         $pubDate = date('Y-m-d', strtotime((string) $item->pubDate));
         $items[] = "* [{$title}]({$link}) - {$pubDate}";
