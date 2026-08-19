@@ -12,6 +12,8 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BURIROR_GH_TOKEN }}
       
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
