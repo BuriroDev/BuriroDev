@@ -5,11 +5,16 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 ---
 
 ### Recent releases
-- `devpakistan` v0.1.0 – DevScore engine live (2026-08-19)
-- `burirodev-scripts` – PHP helper functions (2026-08-18)
+<!-- recent_releases starts -->
+<!-- recent_releases ends -->
 
-*Loading latest TILs from burirodev-til...*
+### Blog Posts
+<!-- blog starts -->
+<!-- blog ends -->
 
+### TIL (Today I Learned)
+<!-- til starts -->
+<!-- til ends -->
 
 ---
 

@@ -42,7 +42,15 @@ function fetchReleases($token) {
 
 // 3. Fetch Dev.to blog posts
 function fetchBlogPosts() {
-    $feed = simplexml_load_file('https://dev.to/feed/burirodev');
+    $ch = curl_init('https://dev.to/feed/burirodev');
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'BuriroDev-READMEScript');
+    $response = curl_exec($ch);
+    curl_close($ch);
+
+    if (!$response) return "*No blog posts fetched.*";
+
+    $feed = simplexml_load_string($response);
     if (!$feed) return "*No blog posts fetched.*";
 
     $items = [];
