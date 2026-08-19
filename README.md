@@ -19,21 +19,14 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 
 ### Blog Posts
 <!-- blog starts -->
-* [Hey everyone! 👋
-
-I’m Abdul Bari, a backend developer from Pakistan 🇵🇰.
-
-I’m excited to be here on DEV.to and looking forward to sharing my journey, lessons learned, projects, and everything I discover along the way as a developer.
-
-Let’s connect, learn,](https://dev.to/burirodev/hey-everyone-im-abdul-bari-a-backend-developer-from-pakistan-im-excited-to-be-here-1io7) - 2026-08-19
 * [how die() helps you in debugging (PHP)](https://dev.to/burirodev/how-die-help-you-in-debugging-php-2pb4) - 2026-08-19
 <!-- blog ends -->
 
 ### TIL (Today I Learned)
 <!-- til starts -->
-* [PHP empty() treats 0 as empty – use is_null() instead](https://github.com/BuriroDev/burirodev-til/issues/1) - 2026-08-19
-* [Added a compound MySQL index to cut DevScore query time from 2s to 0.02s](https://github.com/BuriroDev/burirodev-til/issues/2) - 2026-08-18
-* [Laravel's tap() helper is perfect for logging without breaking fluent chains](https://github.com/BuriroDev/burirodev-til/issues/3) - 2026-08-17
+* [Legacy product was struggling with database queries, so I used SET GLOBAL SQL_MODE = '' (NOT A BEST PRACTICE) you have undo it later](https://github.com/BuriroDev/burirodev-til) - 2026-08-19
+* [How to use die() for debugging legacy PHP](https://github.com/BuriroDev/burirodev-til) - 2026-08-19
+* [Setting up MySQL indexes for faster DevScore queries](https://github.com/BuriroDev/burirodev-til) - 2026-08-17
 <!-- til ends -->
 
 ---
