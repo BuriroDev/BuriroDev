@@ -33,9 +33,14 @@ function fetchReleases($token) {
     $data = json_decode($response, true);
 
     $repos = $data['data']['viewer']['repositories']['nodes'] ?? [];
+    $repos = array_slice($repos, 0, 7);
     $output = [];
     foreach ($repos as $repo) {
         $output[] = "* [{$repo['name']}]({$repo['url']}) - Updated: " . date('Y-m-d', strtotime($repo['updatedAt']));
+    }
+
+    if (count($repos) > 0) {
+        $output[] = "\n[More on recent releases](https://github.com/BuriroDev?tab=repositories)";
     }
     return implode("\n", $output) ?: "*No public repositories updated recently.*";
 }
@@ -64,11 +69,15 @@ function fetchBlogPosts() {
             continue;
         }
 
-        if ($count++ >= 5) break;
+        if ($count++ >= 7) break;
 
         $link = (string) $item->link;
         $pubDate = date('Y-m-d', strtotime((string) $item->pubDate));
         $items[] = "* [{$title}]({$link}) - {$pubDate}";
+    }
+
+    if (count($items) > 0) {
+        $items[] = "\n[More on blog posts](https://dev.to/burirodev)";
     }
     return implode("\n", $items) ?: "*No blog posts yet.*";
 }
@@ -92,11 +101,15 @@ function fetchTILs() {
         return strtotime($b['date']) - strtotime($a['date']);
     });
 
-    // Take latest 5
-    $tils = array_slice($tils, 0, 5);
+    // Take latest 7
+    $tils = array_slice($tils, 0, 7);
     $output = [];
     foreach ($tils as $til) {
         $output[] = "* [{$til['title']}]({$til['url']}) - {$til['date']}";
+    }
+
+    if (count($output) > 0) {
+        $output[] = "\n[More on TILs](https://github.com/BuriroDev/burirodev-til)";
     }
     return implode("\n", $output);
 }
