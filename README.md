@@ -13,14 +13,16 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 * [google_drive_project](https://github.com/BuriroDev/google_drive_project) - Updated: 2026-08-19
 * [REACT-TODO-LIST](https://github.com/BuriroDev/REACT-TODO-LIST) - Updated: 2026-08-19
 * [Multi-Tenancy-Architecture-Practice](https://github.com/BuriroDev/Multi-Tenancy-Architecture-Practice) - Updated: 2026-08-19
-* [burirodev-scripts](https://github.com/BuriroDev/burirodev-scripts) - Updated: 2026-08-19
-* [real_estate_project](https://github.com/BuriroDev/real_estate_project) - Updated: 2026-08-19
+
+[More on recent releases](https://github.com/BuriroDev?tab=repositories)
 <!-- recent_releases ends -->
 
 ### Blog Posts
 <!-- blog starts -->
 * [Don't Use Frameworks (if you are a junior)](https://dev.to/burirodev/dont-use-frameworks-if-you-are-a-junior-3c1o) - 2026-08-20
 * [how die() helps you in debugging (PHP)](https://dev.to/burirodev/how-die-help-you-in-debugging-php-2pb4) - 2026-08-19
+
+[More on blog posts](https://dev.to/burirodev)
 <!-- blog ends -->
 
 ### TIL (Today I Learned)
@@ -28,6 +30,8 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 * [Legacy product was struggling with database queries, so I used SET GLOBAL SQL_MODE = '' (NOT A BEST PRACTICE) you have undo it later](https://github.com/BuriroDev/burirodev-til) - 2026-08-19
 * [How to use die() for debugging legacy PHP](https://github.com/BuriroDev/burirodev-til) - 2026-08-19
 * [Setting up MySQL indexes for faster DevScore queries](https://github.com/BuriroDev/burirodev-til) - 2026-08-17
+
+[More on TILs](https://github.com/BuriroDev/burirodev-til)
 <!-- til ends -->
 
 ---
