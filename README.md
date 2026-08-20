@@ -19,6 +19,7 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 
 ### Blog Posts
 <!-- blog starts -->
+* [Don't Use Frameworks (if you are a junior)](https://dev.to/burirodev/dont-use-frameworks-if-you-are-a-junior-3c1o) - 2026-08-20
 * [how die() helps you in debugging (PHP)](https://dev.to/burirodev/how-die-help-you-in-debugging-php-2pb4) - 2026-08-19
 <!-- blog ends -->
 
