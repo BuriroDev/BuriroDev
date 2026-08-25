@@ -6,13 +6,13 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 
 ### Recent releases
 <!-- recent_releases starts -->
+* [burirodev-til](https://github.com/BuriroDev/burirodev-til) - Updated: 2026-08-25
+* [liteview-php](https://github.com/BuriroDev/liteview-php) - Updated: 2026-08-25
 * [BuriroDev](https://github.com/BuriroDev/BuriroDev) - Updated: 2026-08-20
-* [burirodev-til](https://github.com/BuriroDev/burirodev-til) - Updated: 2026-08-19
 * [ajax_crud](https://github.com/BuriroDev/ajax_crud) - Updated: 2026-08-19
 * [basic-sales-pos-internshiptask](https://github.com/BuriroDev/basic-sales-pos-internshiptask) - Updated: 2026-08-19
 * [google_drive_project](https://github.com/BuriroDev/google_drive_project) - Updated: 2026-08-19
 * [REACT-TODO-LIST](https://github.com/BuriroDev/REACT-TODO-LIST) - Updated: 2026-08-19
-* [Multi-Tenancy-Architecture-Practice](https://github.com/BuriroDev/Multi-Tenancy-Architecture-Practice) - Updated: 2026-08-19
 
 [More on recent releases](https://github.com/BuriroDev?tab=repositories)
 <!-- recent_releases ends -->
@@ -27,6 +27,7 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 
 ### TIL (Today I Learned)
 <!-- til starts -->
+* [Use PDO for SQL-lite queries](https://github.com/BuriroDev/burirodev-til) - 2026-08-25
 * [Legacy product was struggling with database queries, so I used SET GLOBAL SQL_MODE = '' (NOT A BEST PRACTICE) you have undo it later](https://github.com/BuriroDev/burirodev-til) - 2026-08-19
 * [How to use die() for debugging legacy PHP](https://github.com/BuriroDev/burirodev-til) - 2026-08-19
 * [Setting up MySQL indexes for faster DevScore queries](https://github.com/BuriroDev/burirodev-til) - 2026-08-17
