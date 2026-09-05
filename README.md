@@ -6,7 +6,7 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 
 ### Recent releases
 <!-- recent_releases starts -->
-* [BuriroDev](https://github.com/BuriroDev/BuriroDev) - Updated: 2026-09-03
+* [BuriroDev](https://github.com/BuriroDev/BuriroDev) - Updated: 2026-09-04
 * [liteview-php](https://github.com/BuriroDev/liteview-php) - Updated: 2026-08-27
 * [burirodev-til](https://github.com/BuriroDev/burirodev-til) - Updated: 2026-08-25
 * [ajax_crud](https://github.com/BuriroDev/ajax_crud) - Updated: 2026-08-19
