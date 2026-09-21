@@ -12,8 +12,6 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.BURIROR_GH_TOKEN }}
       
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -22,7 +20,7 @@ jobs:
           
       - name: Update README
         env:
-          BURIROR_GH_TOKEN: ${{ secrets.BURIROR_GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: php update_readme.php
         
       - name: Commit and Push changes

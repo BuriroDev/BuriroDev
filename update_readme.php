@@ -1,13 +1,13 @@
 <?php
 
 // 1. Configuration
-$githubToken = getenv('BURIROR_GH_TOKEN'); // Set this in GitHub Secrets
+$githubToken = getenv('GITHUB_TOKEN');
 $readmePath = __DIR__ . '/README.md';
 
 // 2. Fetch recent releases (Public repos only)
 function fetchReleases($token) {
     $query = '{
-        viewer {
+        user(login: "BuriroDev") {
             repositories(first: 10, privacy: PUBLIC, orderBy: {field: UPDATED_AT, direction: DESC}) {
                 nodes {
                     name
@@ -32,7 +32,7 @@ function fetchReleases($token) {
     $response = curl_exec($ch);
     $data = json_decode($response, true);
 
-    $repos = $data['data']['viewer']['repositories']['nodes'] ?? [];
+    $repos = $data['data']['user']['repositories']['nodes'] ?? [];
     $repos = array_slice($repos, 0, 7);
     $output = [];
     foreach ($repos as $repo) {
