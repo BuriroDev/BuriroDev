@@ -6,7 +6,7 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 
 ### Recent releases
 <!-- recent_releases starts -->
-* [BuriroDev](https://github.com/BuriroDev/BuriroDev) - Updated: 2026-10-19
+* [BuriroDev](https://github.com/BuriroDev/BuriroDev) - Updated: 2026-10-20
 * [QueueLess](https://github.com/Awais-Chandio/QueueLess) - Updated: 2026-10-01
 * [liteview-php](https://github.com/BuriroDev/liteview-php) - Updated: 2026-09-29
 * [burirodev-til](https://github.com/BuriroDev/burirodev-til) - Updated: 2026-08-25
@@ -19,6 +19,7 @@ Software Engineer. Building DevPakistan. Hyderabad, Sindh.
 
 ### Blog Posts
 <!-- blog starts -->
+* [YOU CAN CODE ALONE. YOU CAN'T SCALE ALONE.](https://dev.to/burirodev/you-can-code-alone-you-cant-scale-alone-j8f) - 2026-10-20
 * [I WISH I KNEW THIS EARLIER ABOUT INTERNSHIPS](https://dev.to/burirodev/i-wish-i-knew-this-earlier-about-internships-1ggp) - 2026-09-09
 * [Don't Use Frameworks (if you are a junior)](https://dev.to/burirodev/dont-use-frameworks-if-you-are-a-junior-3c1o) - 2026-08-20
 * [how die() helps you in debugging (PHP)](https://dev.to/burirodev/how-die-help-you-in-debugging-php-2pb4) - 2026-08-19
